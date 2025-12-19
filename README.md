@@ -1,17 +1,16 @@
+This project is a React-based notes application developed as part of a comparative study of modern frontend frameworks. The application allows users to create, edit, delete, search, and filter notes, with all data stored locally in the browser. The implementation focuses on core React functionality, including component-based structure, state lifting, and unidirectional data flow, without using external state management libraries.
 
-# React + Vite
+• Notes can be created with a title, text content, optional tags, and optional file attachments
+• Notes can be edited and deleted, with all changes reflected immediately in the UI
+• A search bar allows real-time filtering of notes based on title and content
+• Tag-based filtering allows narrowing down notes by selected tags
+• All notes are persisted using browser local storage, so data remains after page reloads
+• File attachments are handled on the client side and associated with individual notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run the application locally, Node.js and npm must be installed on the system. The node_modules folder is intentionally not included in the repository and must be installed locally.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+• Clone the repository from GitHub to your local machine
+• Navigate into the project folder
+• Install dependencies using npm
+• Start the development server: npm run dev
+• Open the application in the browser using the local development URL provided by Vite
